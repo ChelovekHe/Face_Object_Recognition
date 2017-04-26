@@ -1,0 +1,16 @@
+base_lr: 0.0005
+display: 20
+gamma: 0.0001
+lr_policy: "step"
+max_iter: 1500
+momentum: 0.9
+snapshot: 3000
+snapshot_prefix: "Lenex_1500_0.0005"
+solver_mode: GPU
+solver_type: SGD
+stepsize: 2000
+test_interval: 300
+test_iter: 1
+test_net: "/home/xiao/Desktop/caffe_face/example/lenet_auto_test.prototxt"
+train_net: "/home/xiao/Desktop/caffe_face/example/lenet_auto_train.prototxt"
+weight_decay: 0.0005
